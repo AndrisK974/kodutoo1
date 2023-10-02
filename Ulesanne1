@@ -1,0 +1,30 @@
+Ülesanne 1. Antud ülesannet saab ka võtta kui massiivi sortimist. Arvan, et antud algoritmi keerukus on O(n2) (O n ruudus), kuna
+sorditakse N raaamatut, mille jooksul tehakse ära N kordust (loopi) ning N võrdlust, et võrrelda, kas on suurem või väiksem.
+
+Raamatu riiuli kõrgus = 25 cm
+
+Eeldame, et meil on 5 raamatut kõrgustega:
+Raamat 1 = 20 cm
+Raamat 2 = 21 cm
+Raamat 3 = 22 cm
+Raamat 4 = 19 cm
+Raamat 5 = 15 cm
+
+Kõigepealt valime antud loendist kõige lühema raamatu (raamat 5) ja paneme selle raamaturiiuli kõige vasakpoolsemasse ossa. 
+Järgmiseks võtame “raamat 1” ning võrdleme, kas see on kõrgem, või madalam, kui “raamat 5”. Kuna see on kõrgem, asetame raamatu paremale. 
+Seejärel võtame “raamat 2” ning võrdleme, kas “raamat 2” on kõrgem kui “raamat 5”. Kui on kõrgem, liigutame selle ühe võrra paremale ning nüüd võrdleme, 
+kas “raamat 2” on kõrgem kui “raamat 1”. Kuna “raamat 2” on kõrgem, liigutame selle kõige paremale.
+Edasisi raamatuid kontrollime samamoodi.
+
+“raamat 1”, kas > või < kui “raamat 5”? Kui jah, liigu edasi. On suurem.
+
+“raamat 2”, kas > või < kui “raamat 5”? Kui jah, liigu edasi. On suurem.
+“raamat 2”, kas > või < kui “raamat 1”? Kui jah, liigu edasi. On suurem.
+
+
+“raamat 3”, kas > või < kui “raamat 5”? Kui jah, liigu edasi. On suurem.
+“raamat 3”, kas > või < kui “raamat 1”? Kui jah, liigu edasi. On suurem
+“raamat 3”, kas > või < kui “raamat 2”? Kui jah, liigu edasi. On suurem.
+
+“raamat 4”, kas > või < kui “raamat 5”? Kui jah, liigu edasi. On suurem.
+“raamat 4”, kas > või < kui “raamat 2”? Kui jah, liigu edasi. Väiksem, seega jätame selle raamatu “raamat 5” ja “raamat 1” vahele
