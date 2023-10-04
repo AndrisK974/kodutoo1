@@ -1,0 +1,9 @@
+Ülesanne 2 lisa:
+
+Ajaline keerukus nii sisestamisel kui kustutamisel võiks olla O(n), sest alati sisestatakse kõige vasakule ja kustutatakse kõige paremalt.
+
+Ülesanne 5 lisa:
+
+Puu on graafi erijuhtum. Puu on graaf, milles ei ole tsükleid ega suundasid. Puul on
+n - 1 serva. Kui esineb graaf, millel on tsüklid või suunad, siis see ei ole puu. 
+Näiteks saab eesti kaarti vaadata kui graafi. Iga maakond on graafi üks tipp ning see on ühendatud teiste tippudega. 
