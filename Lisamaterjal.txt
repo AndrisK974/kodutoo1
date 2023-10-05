@@ -1,6 +1,6 @@
 Ülesanne 2 lisa:
 
-Ajaline keerukus nii sisestamisel kui kustutamisel võiks olla O(n), sest alati sisestatakse kõige vasakule ja kustutatakse kõige paremalt.
+Ajaline keerukus nii sisestamisel kui kustutamisel võiks olla O(1), sest alati sisestatakse kõige vasakule ja kustutatakse kõige paremalt.
 
 Ülesanne 5 lisa:
 
